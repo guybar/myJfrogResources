@@ -1,0 +1,28 @@
+localRepositories: 
+	gradle-local: 
+		type: gradle
+	gradle-local-release: 
+		type: gradle
+	maven-local:
+		type: maven
+	maven-local-release:
+		type: maven
+remoteRepositories:
+	maven-remote:
+		type: maven
+		url: https://repo1.maven.org/maven2/
+virtualRepositories:
+	gradle-virtual`: 
+		type: gradle
+		repositories:
+			- maven-local
+			- maven-remote
+	gradle-virtual-release: 
+		type: gradle
+	maven-virtual:
+		type: maven
+	maven-virtual-release:
+		type: maven
+	
+	
+		  
