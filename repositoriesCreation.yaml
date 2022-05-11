@@ -18,6 +18,8 @@ virtualRepositories:
             - gradle-local
             - maven-remote
     gradle-virtual-release: 
+        type: gradle
+        repositories:
             - gradle-local-release
             - maven-remote
     maven-virtual`: 
@@ -26,5 +28,7 @@ virtualRepositories:
             - maven-local
             - maven-remote
     maven-virtual-release: 
+        type: maven
+        repositories:
             - maven-local-release
             - maven-remote

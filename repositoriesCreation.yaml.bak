@@ -28,5 +28,3 @@ virtualRepositories:
     maven-virtual-release: 
             - maven-local-release
             - maven-remote
-	
-		  
