@@ -22,7 +22,7 @@ virtualRepositories:
         repositories:
             - gradle-local-release
             - maven-remote
-    maven-virtual`: 
+    maven-virtual: 
         type: maven
         repositories:
             - maven-local
