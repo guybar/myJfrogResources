@@ -1,34 +1,34 @@
 localRepositories: 
-    gradle-local: 
+    guy-gradle-local:
         type: gradle
-    gradle-local-release: 
+    guy-gradle-local-release:
         type: gradle
-    maven-local:
+    guy-maven-local:
         type: maven
-    maven-local-release:
+    guy-maven-local-release:
         type: maven
 remoteRepositories:
-    maven-remote:
+    guy-maven-remote:
         type: maven
         url: https://repo1.maven.org/maven2/
 virtualRepositories:
-    gradle-virtual`: 
+    guy-gradle-virtual:
         type: gradle
         repositories:
-            - gradle-local
-            - maven-remote
-    gradle-virtual-release: 
+            - guy-gradle-local
+            - guy-maven-remote
+    guy-gradle-virtual-release:
         type: gradle
         repositories:
-            - gradle-local-release
-            - maven-remote
-    maven-virtual`: 
+            - guy-gradle-local-release
+            - guy-maven-remote
+    guy-maven-virtual:
         type: maven
         repositories:
-            - maven-local
-            - maven-remote
-    maven-virtual-release: 
+            - guy-maven-local
+            - guy-maven-remote
+    guy-maven-virtual-release:
         type: maven
         repositories:
-            - maven-local-release
-            - maven-remote
+            - guy-maven-local-release
+            - guy-maven-remote
